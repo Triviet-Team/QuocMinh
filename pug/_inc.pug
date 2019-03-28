@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Thảm trải sàn Quốc Minh
+    link(rel='stylesheet', href='../css/bootstrap.min.css')
+    link(rel='stylesheet', href='../css/mdb.min.css')
+    link(rel='stylesheet', href='../css/xzoom.css')
+    link(rel='stylesheet', href='../css/magnific-popup.css')
+    link(rel='stylesheet', href='../css/materialdesignicons.min.css')
+    link(rel="stylesheet", href='../css/swiper.min.css')
+    link(rel='stylesheet', href='../css/owl.carousel.min.css')
+    link(rel='stylesheet', href='../css/owl.theme.default.min.css')
+    link(rel='stylesheet', href='../css/layout.css')
+    link(rel='shortcut icon', href='../img/favicon.png')
+  body
+    .go-top(title='Lên đầu trang')
+      span
+      span
+
+    block header
+      header      
+        section.mobile
+          .container
+            .toggleMenu.d-block.d-lg-none
+              i.mdi.mdi-menu
+            .search-btn.d-block.d-lg-none
+              i.mdi.mdi-magnify
+            .category-btn.d-block.d-lg-none DANH MỤC SẢN PHẨM
+
+        section.header-top
+          .container
+            h5.d-lg-none.d-none.d-md-inline-block.d-xl-inline-block Tư vấn miễn phí:
+            ul
+              li
+                a(href='tel:0942228335')
+                  i.mdi.mdi-deskphone
+                  | 0942 228 335
+              
+              li.d-none.d-md-inline-block
+                a(href='mailto:pamacorpusa@gmail.com')
+                  i.mdi.mdi-email-outline
+                  | pamacorpusa@gmail.com
+              li (Mrs Thủy)
+            ul
+              li
+                a(href='tel:0916106699')
+                  i.mdi.mdi-deskphone
+                  | 0916 10 66 99
+              
+              li.d-none.d-md-inline-block
+                a(href='mailto:sontung0802@gmail.com')
+                  i.mdi.mdi-email-outline
+                  | sontung0802@gmail.com
+              li (Mr. Sơn Tùng)
+        
+        section.menu.wow
+          .container
+            .logo
+              a(href='index.html')
+                img(src='../img/logo.png')
+                
+            .main-menu
+              ul.nav
+                .nav-close
+                  i.mdi.mdi-close.d-block.d-lg-none
+                li.nav-item
+                  a.nav-link(href='index.html') Trang chủ
+                li.nav-item
+                  a.nav-link(href='gioi-thieu.html') Giới thiệu
+                li.nav-item
+                  a.nav-link(href='san-pham.html') Sản phẩm
+                li.nav-item
+                  a.nav-link(href='dich-vu.html') Dịch vụ
+                li.nav-item
+                  a.nav-link(href='tu-van.html') Tư vấn
+                li.nav-item
+                  a.nav-link(href='cong-trinh.html') Công trình
+                li.nav-item
+                  a.nav-link(href='lien-he.html') Liên hệ
+              
+                
+
+        .overlay-menu
+
+        
+
+    .modal.quickview.fade.product-modal-1.show(tabindex='-1', role='dialog', aria-labelledby='exampleModalCenterTitle')
+      .modal-dialog.modal-lg.modal-dialog-centered(role='document')
+        .modal-content
+          .modal-header
+            h5#exampleModalCenterTitle.modal-title Xem nhanh sản phẩm
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+          .modal-body
+            .row
+              .col-lg-6
+                .modal-img
+                  img(src='../img/product-1.png')
+                      
+              .col-lg-6
+                .quickview-detail
+                  h3 Logitech G502 Proteus Spectrum
+                  h4.price-product
+                    | Giá: Liên hệ
+                  h5
+                    | This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                  .quantity
+                    a(href='lien-he.hmtl') liên hệ đặt hàng ngay
+                .tags
+                  | Thẻ tag: 
+                  span 
+                    a(href='#') Đặc sản Hàn quốc
+                  | ,
+                  span 
+                    a(href='#') Thời trang Hàn Quốc
+          .modal-footer
+            button.btn.btn-light(type='button', data-dismiss='modal') Đóng
+
+    article
+      block article
+
+
+    
+    block footer
+      section.footer
+        .container
+          .row
+            .col-lg-4.col-md-6
+              .contact
+                h4 CÔNG TY TNHH QUỐC MINH
+                ul
+                  li
+                    i.mdi.mdi-map-marker-outline
+                    | 13 - Ngô Văn Sở - Hoàn Kiếm - Hà Nội
+
+                  h5 Mrs.Thủy
+                  li
+                    i.mdi.mdi-deskphone
+                    | 0942 228 335
+                  li
+                    i.mdi.mdi-email-outline
+                    | pamacorpusa@gmail.com
+
+                  h5 Mr.Sơn Tùng
+                  li
+                    i.mdi.mdi-deskphone
+                    | 0916 10 66 99
+                  li
+                    i.mdi.mdi-email-outline
+                    | sontung0802@gmail.com
+            
+            .col-lg-8.col-md-6
+              .row
+                .col-xl-3.col-sm-6
+                  h4 
+                    | Chính sách
+                    i.mdi.mdi-chevron-down
+                  ul
+                    li
+                      a(href='#') Chính sách đổi trả hàng
+                    li
+                      a(href='#') Chính sách đổi trả hàng
+                    li
+                      a(href='#') Chính sách đổi trả hàng
+                    li
+                      a(href='#') Chính sách đổi trả hàng
+                  
+                .col-xl-3.col-sm-6
+                  h4 
+                    | Đại lý
+                    i.mdi.mdi-chevron-down
+                  ul
+                    li
+                      a(href='#') Đăng ký đại lý
+                    li
+                      a(href='#') Đăng ký đại lý
+                    li
+                      a(href='#') Đăng ký đại lý
+                    li
+                      a(href='#') Đăng ký đại lý
+                  
+                .col-xl-3.col-sm-6
+                  h4 
+                    | Hướng dẫn
+                    i.mdi.mdi-chevron-down
+                  ul
+                    li
+                      a(href='#') Hướng dẫn mua hàng
+                    li
+                      a(href='#') Hướng dẫn mua hàng
+                    li
+                      a(href='#') Hướng dẫn mua hàng
+                    li
+                      a(href='#') Hướng dẫn mua hàng
+                  
+                .col-xl-3.col-sm-6
+                  h4 
+                    | Quy định
+                    i.mdi.mdi-chevron-down
+                  ul
+                    li
+                      a(href='#') Quy định thanh toán
+                    li
+                      a(href='#') Quy định thanh toán
+                    li
+                      a(href='#') Quy định thanh toán
+                    li
+                      a(href='#') Quy định thanh toán
+                  
+              .copyright
+                h5 Copyright @ 2019 Tham trai san Quoc Minh. All Reserved. Designed by Tri Viet
+          
+
+
+
+                    
+                    
+                    
+
+
+      script(src='../js/jquery-3.3.1.min.js')
+      script(src='../js/bootstrap.min.js')
+      script(src='../js/mdb.min.js')
+      script(src='../js/xzoom.min.js')
+      script(src='../js/owl.carousel.min.js')
+      script(src='../js/magnific-popup.js')
+      script(src='../js/swiper.min.js')
+      script(src='../js/layout.js')
