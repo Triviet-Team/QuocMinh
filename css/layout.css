@@ -887,6 +887,9 @@ body .ui-widget.ui-widget-content {
   padding-bottom: 11px;
   color: #CF3030;
 }
+.product-page .main .product-detail-2 img {
+  margin-bottom: 20px;
+}
 .product-page .main .similar h2 {
   padding-top: 20px;
   margin-top: 40px;
