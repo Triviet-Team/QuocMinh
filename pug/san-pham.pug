@@ -8,7 +8,7 @@ block article
           ol.breadcrumb
             li.breadcrumb-item
               a(href='index.html') Trang chủ
-            li.breadcrumb-item.active Máy vệ sinh công nghiệp
+            li.breadcrumb-item.active Thảm trải sàn
 
   section.product-page
     .container
@@ -216,8 +216,74 @@ block article
             | Ẩn bớt danh mục
             i.mdi.mdi-minus
         
-        .filter-color
-          
+        .filter-btn.d-block.d-lg-none
+          i.mdi.mdi-filter
+
+        .left-in
+          .filter-close.d-block.d-xl-none
+            i.mdi.mdi-close
+
+          .filter-color
+            h4 Lọc theo màu
+
+            .filter-color-box
+              label.check-box
+                | Màu đỏ
+                input(type='checkbox', checked='checked')
+                span.checkmark(style='background: red')
+              label.check-box
+                | Màu vàng
+                input(type='checkbox')
+                span.checkmark(style='background: yellow')
+              label.check-box
+                | Màu xanh lá cây
+                input(type='checkbox')
+                span.checkmark(style='background: green')
+              label.check-box
+                | Màu hồng
+                input(type='checkbox')
+                span.checkmark(style='background: pink')
+              label.check-box
+                | Màu cam
+                input(type='checkbox')
+                span.checkmark(style='background: orange')
+              label.check-box
+                | Màu đen
+                input(type='checkbox')
+                span.checkmark(style='background: black')
+
+          .filter-color
+            h4 Lọc theo size
+
+            .filter-color-box
+              label.check-box
+                | 1m2 x 1m8 (500)
+                input(type='checkbox', checked='checked')
+                span.checkmark
+              label.check-box
+                | 1m5 x 2m (5)
+                input(type='checkbox')
+                span.checkmark
+              label.check-box
+                | 1m x 2m8 (50)
+                input(type='checkbox')
+                span.checkmark
+              label.check-box
+                | 1m2 x 1m8 (100)
+                input(type='checkbox')
+                span.checkmark
+              label.check-box
+                | 1m2 x 1m5 (20)
+                input(type='checkbox')
+                span.checkmark
+              label.check-box
+                | 1m2 x 1m8 (8)
+                input(type='checkbox')
+                span.checkmark
+            
+          .filter-done 
+            | Lọc sản phẩm
+
 
       .main
         .search
@@ -250,6 +316,62 @@ block article
                 a(href='chi-tiet-san-pham.html', title='Thảm Tấm Mỹ Miliken M 194')
                   | Thảm Tấm Mỹ Miliken M 194
 
+          .box-product
+            .box-product-img
+              span mới
+              a.custom-quickview(data-toggle="modal" data-target=".product-modal-1", href='#')
+                i.mdi.mdi-eye-plus-outline
+              a(href='chi-tiet-san-pham.html')
+                img.show(src='../img/product-1.png')
+                img.hidden(src='../img/product-2.png')
+            .box-product-detail
+              h6 Thảm tấm Mỹ Miliken
+              h5 
+                a(href='chi-tiet-san-pham.html', title='Thảm Tấm Mỹ Miliken M 194')
+                  | Thảm Tấm Mỹ Miliken M 194
+          
+          .box-product
+            .box-product-img
+              span mới
+              a.custom-quickview(data-toggle="modal" data-target=".product-modal-1", href='#')
+                i.mdi.mdi-eye-plus-outline
+              a(href='chi-tiet-san-pham.html')
+                img.show(src='../img/product-1.png')
+                img.hidden(src='../img/product-2.png')
+            .box-product-detail
+              h6 Thảm tấm Mỹ Miliken
+              h5 
+                a(href='chi-tiet-san-pham.html', title='Thảm Tấm Mỹ Miliken M 194')
+                  | Thảm Tấm Mỹ Miliken M 194
+          
+          .box-product
+            .box-product-img
+              span mới
+              a.custom-quickview(data-toggle="modal" data-target=".product-modal-1", href='#')
+                i.mdi.mdi-eye-plus-outline
+              a(href='chi-tiet-san-pham.html')
+                img.show(src='../img/product-1.png')
+                img.hidden(src='../img/product-2.png')
+            .box-product-detail
+              h6 Thảm tấm Mỹ Miliken
+              h5 
+                a(href='chi-tiet-san-pham.html', title='Thảm Tấm Mỹ Miliken M 194')
+                  | Thảm Tấm Mỹ Miliken M 194
+          
+          .box-product
+            .box-product-img
+              span mới
+              a.custom-quickview(data-toggle="modal" data-target=".product-modal-1", href='#')
+                i.mdi.mdi-eye-plus-outline
+              a(href='chi-tiet-san-pham.html')
+                img.show(src='../img/product-1.png')
+                img.hidden(src='../img/product-2.png')
+            .box-product-detail
+              h6 Thảm tấm Mỹ Miliken
+              h5 
+                a(href='chi-tiet-san-pham.html', title='Thảm Tấm Mỹ Miliken M 194')
+                  | Thảm Tấm Mỹ Miliken M 194
+          
           .box-product
             .box-product-img
               span mới

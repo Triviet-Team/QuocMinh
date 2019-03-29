@@ -222,11 +222,10 @@ $(document).ready(() => {
     $('.overlay-menu').toggleClass('overlay-in');
   });
 
-  $('.overlay-menu, .nav-close, .category h4 i').click(function() {
+  $('.overlay-menu, .nav-close, .category h4 i, .filter-close').click(function() {
     $('.overlay-menu').removeClass('overlay-in');
     $('.nav').removeClass('out');
-    $('.left').removeClass('active');
-    $('.category').removeClass('active');
+    $('.category, .left-in').removeClass('active');
   });
 
 
@@ -254,6 +253,11 @@ $(document).ready(() => {
 
   $('.category-btn').click(() => {
     $('.category').toggleClass('active');
+    $('.overlay-menu').toggleClass('overlay-in');
+  });
+
+  $('.filter-btn').click(() => {
+    $('.left-in').addClass('active');
     $('.overlay-menu').toggleClass('overlay-in');
   });
 
