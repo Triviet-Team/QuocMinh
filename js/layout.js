@@ -263,7 +263,7 @@ $(document).ready(() => {
 
   if (windowWidth < 1200) {
     $('.category .nav-link').parent().find('ul').filter(function() {
-      $(this).parent().find('a').removeAttr('href');
+      $(this).parent().find('.nav-link').removeAttr('href');
     });
   }
 });
